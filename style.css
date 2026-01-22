@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    padding: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    background-color: #ffffff;
+    max-width: 400px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: not-allowed;
+}
+
+button:enabled {
+    background-color: #007bff;
+    cursor: pointer;
+}
+
+/* --- Added from image 6B --- */
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.invalid {
+    border: 2px solid red;
+}
